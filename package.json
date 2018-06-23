@@ -2,7 +2,7 @@
     "name": "toggle-semicolon",
     "displayName": "toggle semicolon",
     "description": "toggle semicolon, colon and comma",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "awesomektvn",
     "engines": {
         "vscode": "^1.0.0"
@@ -16,6 +16,10 @@
         "onCommand:extension.toggleComma"
     ],
     "main": "./out/src/extension",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/awesomektvn/vscode-toogle-semicolon"
+    },
     "contributes": {
         "commands": [
             {
